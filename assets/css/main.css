@@ -12,6 +12,9 @@ Mellow down the white color
 #C5C3C6 - Silver white
 */
 
+body{
+	margin: 0px;
+}
 
 body, article, p, ul,footer {
 	border: solid black 2px;
@@ -87,5 +90,74 @@ a {
 .nav-bar a:active {
 
 }
+
+
+
+
+/*Home*/
+.hero{
+	background-image: url("/assets/img/atlas-shrugged.png");
+	min-height: 60em;
+	width: 100%;
+	background-repeat: no-repeat;
+
+}
+
+
+
+.hero-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #DCDCDD;
+
+
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: 0.6em;
+}
+
+.hero-text p {
+	border: none;
+	font-size: 1.5em;
+}
+
+
+
+/*The button styles*/
+.button {
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  line-height: 3;
+  color: white;
+  font-weight: 600;
+}
+
+.button:link, .button:visited, .button:focus {
+  background: #12804B;
+}
+
+.button:hover {
+  background: #1BCD77;
+}
+
+.button:active {
+  background: #8661C1;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
