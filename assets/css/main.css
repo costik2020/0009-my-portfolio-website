@@ -1,3 +1,91 @@
+
+/*
+Palete
+#8661C1
+#3A0842
+#BE97C6
+#0D2818
+#21FA90
+
+Mellow down the white color
+#DCDCDD - Gainsbora white
+#C5C3C6 - Silver white
+*/
+
+
 body, article, p, ul,footer {
 	border: solid black 2px;
+	font-family: sans-serif;
+	/*background-color: #DCDCDD;*/
 }
+
+.nav-bar, .contact, .footer{
+	background-color: #3A0842;
+	color: #C5C3C6;
+}
+
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+/*Navigation Bar*/
+.nav-bar{
+	background-color: #3A0842;
+	padding: 0.1em;
+	border: none;
+	width: 100%;
+
+}
+
+.nav-bar ul li{
+	display: inline;
+	border: none;
+
+}
+
+.nav-bar ul{
+	border: none;
+	background-color: #3A0842;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+a {
+
+	text-decoration: none;
+	padding: 0.6em;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-radius: 0.5em;
+
+}
+
+.nav-bar a:link {
+	color: white;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.nav-bar a:visited {
+	color: white;
+}
+
+.nav-bar a:focus {
+
+}
+
+.nav-bar a:hover {
+	background-color: #8661C1;
+
+}
+
+.nav-bar a:active {
+
+}
+
+
