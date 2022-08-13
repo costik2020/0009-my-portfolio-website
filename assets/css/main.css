@@ -152,8 +152,35 @@ h1 {
 
 
 
+/*About me section*/
+.about {
+	min-height: 60em;
+	width: 100%;
+	background: black;
+	color: white;
+	text-indent: 1em;
+
+}
 
 
+
+.about p,
+.about h2 {
+	padding: 1em;
+	max-width: 80em;
+}
+
+.about .button{
+	margin-left: 1em;
+}
+
+.about {
+	display: flex;
+}
+
+.about .img {
+	margin-top: 10em;
+}
 
 
 
