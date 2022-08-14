@@ -22,7 +22,9 @@ body, article, p, ul,footer {
 	/*background-color: #DCDCDD;*/
 }
 
-.nav-bar, .contact, .footer{
+
+
+.nav-bar, .contact, .footer, .find-me{
 	background-color: #3A0842;
 	color: #C5C3C6;
 }
@@ -305,13 +307,123 @@ h1 {
 
 
 
+/*Contact me area*/
+h2{
+	text-align: center;
+	padding: 1em;
+	padding-top: 3em;
+}
+
+.contact {
+	width: 100%;
+
+}
+
+.form-container {
+	padding-bottom: 17em;
+}
+
+form {
+	border: solid black 2px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form{
+	border: solid black 2px;
+
+}
+
+form input, form textarea, form select, form button {
+	font-family: inherit;
+	font-size: 1em;
+	background-color: #830A95;
+	color: white;
+	border: none;
+	box-sizing: border-box;
+	padding: 0px;
+	padding: 1em;
+	margin: 0px;
+	margin-bottom: 2em;
+	display: block;
+	line-height: 2em;
+
+}
+
+
+
+form .name-email {
+	/*border: solid black 2px;*/
+	width: 91.5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+form #name, form #email {
+	display: inline;
+	width: 49%;
+}
+
+form #name {
+	margin-right: 1%;
+
+}
+
+form #email {
+
+}
+
+form #subject {
+	width: 91.5%;
+
+}
+
+form #message {
+	width: 91.5%;
+}
+
+form textarea {
+	height: 15em;
+}
+
+
+form .submit-reset input[type="submit"],
+form .submit-reset input[type="reset"]
+ {
+	display: inline;
+	width: 16em;
+
+
+}
+
+form input[type="submit"] {
+	margin-right: 1em;
+}
+
+
+form .submit-reset input[type="submit"]:hover,
+form .submit-reset input[type="reset"]:hover {
+	 /*background: #1BCD77;*/
+	 background-color: #8661C1;
+
+}
+
+form .submit-reset input[type="submit"]:active,
+form .submit-reset input[type="reset"]:active {
+	 background: #1BCD77;
+	 /*background: #8661C1;*/
+
+}
 
 
 
 
-
-
-
+/*Find me*/
+.find-me{
+	width: 100%;
+}
 
 
 
