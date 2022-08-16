@@ -481,18 +481,27 @@ form .submit-reset input[type="reset"]:active {
 
 
 
+/*Style the footer*/
+
+footer{
+	width: 100%;
+	text-align: center;
+	padding: 3em;
+}
 
 
 
 
 
 
-
-
-
+/*
 body{
 	height: 1000em;
 }
+*/
+
+
+
 
 
 
