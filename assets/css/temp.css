@@ -1,4 +1,61 @@
 
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+/*About me section*/
+.about {
+	min-height: 70em;
+	padding-top: 5em;
+	width: 100%;
+	background: black;
+	color: white;
+	text-indent: 1em;
+
+}
+
+
+
+.about p,
+.about h2 {
+	padding: 1em;
+	max-width: 80em;
+}
+
+.about h2 {
+
+}
+
+.about-par p:nth-child(1){
+	padding-top: 0em;
+	margin-top: 0em;
+}
+
+
+.about .button{
+	margin-left: 1em;
+}
+
+.container-par-img {
+	/*border: solid green 2px;*/
+	display: flex;
+	align-items: flex-start;
+}
+
+.about .about-img {
+
+
+
+}
+
+.about-par {
+	max-width: 80em;
+}
+
+
+
+
+///////////////////////////////////////////////////////////////////////////
 /*zoom effect*/
 /* [1] The container */
 .img-hover-zoom {
