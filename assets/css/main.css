@@ -25,7 +25,7 @@ body, article, p, ul,footer {
 
 
 .nav-bar, .contact, .footer, .find-me{
-	background-color: #3A0842;
+	background-color: #590366;
 	color: #C5C3C6;
 }
 
@@ -43,6 +43,8 @@ body {
 	padding: 0.1em;
 	border: none;
 	width: 100%;
+	position: fixed;
+	top: 0em;
 
 }
 
@@ -103,6 +105,7 @@ a {
 	width: 100%;
 	background-repeat: no-repeat;
 
+
 }
 
 
@@ -112,6 +115,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	color: #DCDCDD;
+	padding-top: 4em;
 
 
 }
