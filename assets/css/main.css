@@ -12,6 +12,25 @@ Mellow down the white color
 #C5C3C6 - Silver white
 */
 
+/*The "DINER" font from www.fontsquirrel.com*/
+/*Location: "../fonts/diner-obese_regular_macroman/" */
+@font-face {
+    font-family: 'diner-obeseregular';
+    src: url('../fonts/diner-obese_regular_macroman/Diner-Obese-webfont.eot');
+    src: url('../fonts/diner-obese_regular_macroman/Diner-Obese-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/diner-obese_regular_macroman/Diner-Obese-webfont.woff2') format('woff2'),
+         url('../fonts/diner-obese_regular_macroman/Diner-Obese-webfont.woff') format('woff'),
+         url('../fonts/diner-obese_regular_macroman/Diner-Obese-webfont.ttf') format('truetype'),
+         url('../fonts/diner-obese_regular_macroman/Diner-Obese-webfont.svg#diner-obeseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
 body{
 	margin: 0px;
 }
@@ -100,13 +119,59 @@ a {
 
 
 /*Home*/
-.hero{
-	background-image: url("/assets/img/atlas-shrugged.png");
+
+/*Appling neon effect to text*/
+.neonText {
+  animation: flicker 1.5s infinite alternate;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #FFFFFF,
+      0 0 11px #FFFFFF,
+      0 0 19px #FFFFFF,
+      0 0 40px #15FF00,
+      0 0 80px #15FF00,
+      0 0 90px #15FF00,
+      0 0 100px #15FF00,
+      0 0 150px #15FF00;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}
+
+
+
+
+
+
+
+.hero-2{
+	background-image: url("/assets/img/atlas-shrugged-3.png");
 	min-height: 60em;
 	width: 100%;
 	background-repeat: no-repeat;
 
 
+}
+
+/*Hero cocolor: #0082DD or #006AB6*/
+.hero-1{
+	background-color: #0082DD;
+	min-height: 60em;
+	width: 100%;
 }
 
 
@@ -125,6 +190,7 @@ a {
 
 
 .hero-text h1 {
+	font-family: "diner-obeseregular", sans-serif, monospace;
 	font-size: 3em;
 	/*letter-spacing: 0.6em;*/
 	letter-spacing: 0.6em;
@@ -515,7 +581,7 @@ form .submit-reset input[type="reset"]:active {
 footer{
 	width: 100%;
 	text-align: center;
-	padding: 3em;
+
 }
 
 
