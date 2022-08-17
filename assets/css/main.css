@@ -61,10 +61,12 @@ body {
 .nav-bar{
 	background-color: #3A0842;
 	padding: 0.1em;
+	padding-right: 2em;
 	border: none;
 	width: 100%;
 	position: fixed;
 	top: 0em;
+	z-index: +1;
 
 }
 
@@ -116,7 +118,10 @@ a {
 }
 
 
-
+/*Add smooth scroll effect when a nav-bar button is pressed */
+html{
+  scroll-behavior: smooth;;
+}
 
 /*Home*/
 
