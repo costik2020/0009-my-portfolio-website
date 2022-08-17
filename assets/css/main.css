@@ -19,6 +19,7 @@ body{
 body, article, p, ul,footer {
 	border: solid black 2px;
 	font-family: sans-serif;
+	font-size: 1em;
 	/*background-color: #DCDCDD;*/
 }
 
@@ -111,6 +112,7 @@ a {
 
 
 .hero-text{
+	/*border: solid yellow 2px;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -118,11 +120,17 @@ a {
 	padding-top: 4em;
 
 
+
 }
 
-h1 {
+
+.hero-text h1 {
 	font-size: 3em;
+	/*letter-spacing: 0.6em;*/
 	letter-spacing: 0.6em;
+	font-size: 5em;
+	padding-left: 0.6em;
+	padding-right: 0em;
 }
 
 .hero-text p {
@@ -130,7 +138,11 @@ h1 {
 	font-size: 1.5em;
 }
 
-
+.hero-text h2{
+	margin: 0;
+	padding-left: 0em;
+	padding-right: 0em;
+}
 
 /*The button styles*/
 .button {
