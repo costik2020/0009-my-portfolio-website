@@ -399,9 +399,10 @@ margin: 1em;
 }
 
 .project-card .button {
-	align-self: flex-end;
+	align-self: center;
 	width: 90%;
 	margin: 0.2em;
+	margin-bottom: 0.5em;
 }
 
 
