@@ -125,6 +125,8 @@ html{
 
 /*Home*/
 
+
+
 /*Appling neon effect to text*/
 .neonText {
   animation: flicker 1.5s infinite alternate;
@@ -158,6 +160,46 @@ h1 {
 }
 
 
+/*Clouds animation*/
+.ignore .banner{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: red;
+	background: url("../pictures/mountain-crop-gradient.png");
+	background-size: cover;
+	background-position: bottom;
+
+}
+
+.hero-2 .clouds {
+	/*border: solid black 10px;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.hero-2 .clouds img {
+	/*border: solid white 10px;*/
+	position: absolute;
+	top: 0;
+	max-width: 100%;
+	animation: animate-clouds calc(8s * var(--i)) linear  infinite;
+}
+
+@keyframes animate-clouds {
+	0% {
+		transform: translateX(-100%)
+	}
+
+	100% {
+		transform: translateX(100%)
+	}
+}
+
 
 
 
@@ -168,6 +210,7 @@ h1 {
 	min-height: 60em;
 	width: 100%;
 	background-repeat: no-repeat;
+	background-position: top;
 
 
 }
