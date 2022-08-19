@@ -29,6 +29,7 @@ Mellow down the white color
 
 * {
 	box-sizing: border-box;
+	border: none;
 }
 
 body{
@@ -215,7 +216,7 @@ h1 {
 
 
 .hero-2{
-	background-image: url("/assets/img/atlas-shrugged.png");
+	background-image: url("/assets/img/atlas-shrugged-3.png");
 	min-height: 60em;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -230,8 +231,9 @@ h1 {
 
 /*Hero cocolor: #0082DD or #006AB6*/
 .hero-1{
-	/*background-color: #0082DD;*/
-	background-color: white;
+	/*Backup baner background in case that the pic doesn't load..*/
+	background-color: #0082DD;
+	/*background-color: white;*/
 	min-height: 60em;
 	width: 100%;
 }
