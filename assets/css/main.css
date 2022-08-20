@@ -63,6 +63,8 @@ body {
 }
 
 
+
+
 /*Navigation Bar*/
 .nav-bar{
 	/*background-color: #3A0842;*/
@@ -333,8 +335,8 @@ h1 {
 
 /*About me section*/
 .about {
-	min-height: 70em;
-	padding-top: 10em;
+	min-height: 80em;
+	padding-top: 6rem;
 	width: 100%;
 	background: black;
 	color: white;
@@ -349,6 +351,8 @@ h1 {
 
 .container-par-img{
 	width: 70%;
+	height: 100%;
+
 }
 
 .about-par p:nth-child(1){
@@ -356,9 +360,16 @@ h1 {
 	margin-top: 0rem;
 }
 
+.about-par {
+	margin-bottom: 2rem;
+}
 
 .about .button{
 	margin-left: 1rem;
+}
+
+.about * {
+	/*border: 1px solid yellow;*/
 }
 
 
@@ -425,11 +436,18 @@ margin: 1rem;
 	max-width: 100%;
 }
 
+.additional-skills {
+		margin-bottom: 4rem;
+}
 
+.skills .button {
+	margin-bottom: 8rem;
+}
 
 
 /*My Projects*/
 .projects{
+		border-top: 1px dotted grey;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -442,7 +460,8 @@ margin: 1rem;
 
 .container-of-projects {
 	width: 80%;
-	border: solid black 2px;
+	margin-bottom: 5rem;
+	/*border: solid black 2px;*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -482,7 +501,7 @@ margin: 1rem;
 
 
 .project-card {
-	border: solid black 2px;
+	/*border: solid black 2px;*/
 	margin: 1em;
 	width: 25em;
 	height: 40em;
@@ -515,6 +534,7 @@ h2{
 }
 
 .contact {
+	margin-top: 10rem;
 	width: 100%;
 
 }
@@ -524,7 +544,7 @@ h2{
 }
 
 form {
-	border: solid black 2px;
+	/*border: solid black 2px;*/
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -532,7 +552,7 @@ form {
 }
 
 form{
-	border: solid black 2px;
+	/*border: solid black 2px;*/
 
 }
 
@@ -619,15 +639,44 @@ form .submit-reset input[type="reset"]:active {
 
 
 
+/* Personal details styles */
+
+.personal-details {
+	/*border: solid black 2px;*/
+	border-top: 1px dotted grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.personal-details h2 {
+	text-align: center;
+	padding: 2em;
+	padding-bottom: 0em;
+}
+
+
+
+.personal-details .my-details {
+	padding: 2em;
+}
+
+
+
 
 /*Find me*/
 .find-me{
+	border-top: 1px dotted grey;
 	width: 100%;
 	height: 20em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
+}
+
+.find-me p {
+	font-size: 1.3rem;
 }
 
 .find-me .icons {
@@ -690,32 +739,13 @@ form .submit-reset input[type="reset"]:active {
 }
 
 
-/* Personal details styles */
-
-.personal-details {
-	/*border: solid black 2px;*/
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.personal-details h2 {
-	text-align: center;
-	padding: 2em;
-	padding-bottom: 0em;
-}
-
-
-
-.personal-details .my-details {
-	padding: 2em;
-}
-
 
 
 /*Style the footer*/
 
 footer{
+	border-top: 1px dotted grey;
+
 	width: 100%;
 	text-align: center;
 
@@ -723,7 +753,9 @@ footer{
 
 
 
-
+hr {
+	  border-top: 10px solid red;
+}
 
 
 /*
