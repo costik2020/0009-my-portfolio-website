@@ -30,6 +30,11 @@ Mellow down the white color
 * {
 	box-sizing: border-box;
 	border: none;
+
+}
+
+html {
+	font-size: 16px;
 }
 
 body{
@@ -138,29 +143,41 @@ html{
 
 
 /*Appling neon effect to text*/
+
+/*
+neno pairs: #FFFFFF with #15FF00
+neno pairs: #FFF700 with #FF6F00 - this pair works really well, it pops the text thrrough the clouds :)
+neno pairs: #ffb600 with #CE00A0
+
+*/
 .neonText {
   animation: flicker 1.5s infinite alternate;
-  color: #FFFFFF;
+  /*color: #FFFFFF;*/
+  /*color: #ffb600;*/
+  color: #FFF700;
 }
 
 h1 {
   font-size: 4.2rem;
+
 }
 
 /* Flickering animation */
+/*Color-purple: #CE00A0*/
+/*Color-green: #15FF00*/
 @keyframes flicker {
 
   0%, 18%, 22%, 25%, 53%, 57%, 100% {
 
       text-shadow:
-      0 0 4px #FFFFFF,
-      0 0 11px #FFFFFF,
-      0 0 19px #FFFFFF,
-      0 0 40px #15FF00,
-      0 0 80px #15FF00,
-      0 0 90px #15FF00,
-      0 0 100px #15FF00,
-      0 0 150px #15FF00;
+      0 0 4px #FFF700,
+      0 0 11px #FFF700,
+      0 0 19px #FFF700,
+      0 0 40px #FF6F00,
+      0 0 80px #FF6F00,
+      0 0 90px #FF6F00,
+      0 0 100px #FF6F00,
+      0 0 150px #FF6F00;
 
   }
 
@@ -168,6 +185,9 @@ h1 {
       text-shadow: none;
   }
 }
+
+
+
 
 
 /*Clouds animation*/
@@ -250,6 +270,9 @@ h1 {
 
 
 
+
+
+
 }
 
 
@@ -266,12 +289,16 @@ h1 {
 .hero-text p {
 	border: none;
 	font-size: 1.5em;
+	text-shadow: 4px 4px 5px black;
+
 }
 
 .hero-text h2{
 	margin: 0;
 	padding-left: 0em;
 	padding-right: 0em;
+	text-shadow: 3px 1px 2px grey;
+
 }
 
 .hero-text .button{
@@ -321,30 +348,34 @@ h1 {
 
 
 .container-par-img{
-	width: 50%;
+	width: 70%;
 }
 
 .about-par p:nth-child(1){
-	padding-top: 0em;
-	margin-top: 0em;
+	padding-top: 0rem;
+	margin-top: 0rem;
 }
 
 
 .about .button{
-	margin-left: 1em;
+	margin-left: 1rem;
 }
 
 
 
 .about .about-img {
 float: right;
-width: 15em;
-margin: 1em;
+width: 15rem;
+margin: 1rem;
 
 
 
 }
 
+.about p {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
 
 
 
@@ -360,7 +391,9 @@ margin: 1em;
 	flex-direction: column;
 	align-items: center;
 	border: none;
+	font-size: 1.2rem;
 }
+
 
 
 .main-skills {
@@ -401,6 +434,10 @@ margin: 1em;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+}
+
+.projects p {
+	font-size: 1.2em;
 }
 
 .container-of-projects {
