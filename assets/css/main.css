@@ -472,7 +472,9 @@ margin: 1rem;
 
 
 
-/*The styles for each project*/
+
+/*Project Card*/
+/*The styles for each project Card*/
 .project-card img{
 	/*border: solid black 2px;*/
 	width: 100%;
@@ -502,6 +504,15 @@ margin: 1rem;
 /*end of zoom effect*/
 
 
+/*
+Note about text lenght in each card:
+  	- Keep each <h2> title under 2 lines long
+	- Keep each <p> paragraph under 2 lines long
+And if you fallow this then the pictures from card to card will look good and symmetric...
+
+
+*/
+
 .project-card {
 	/*border: solid black 2px;*/
 	margin: 1em;
@@ -512,7 +523,8 @@ margin: 1rem;
 	align-items: center;
 	justify-content: space-between;
 	background: #AFAFAF;
-	box-shadow: 10px 5px 5px #787878;
+	/*box-shadow: 10px 5px 5px #787878;*/
+	box-shadow: 10px 5px 5px #4A4944;
 }
 
 .project-card h2 {
