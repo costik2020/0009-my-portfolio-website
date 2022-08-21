@@ -474,15 +474,17 @@ margin: 1rem;
 
 /*The styles for each project*/
 .project-card img{
+	/*border: solid black 2px;*/
 	width: 100%;
-	height: 20em;
+	height: 22rem;
 	object-fit: cover;
 }
 
 /*zoom effect*/
 /* [1] The container */
 .img-hover-zoom {
-  height: 20em; /* [1.1] Set it as per your need */
+  /*border: solid green 4px;*/
+  height: 30rem; /* [1.1] Set it as per your need */
   width: 100%;
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
@@ -510,10 +512,21 @@ margin: 1rem;
 	align-items: center;
 	justify-content: space-between;
 	background: #AFAFAF;
+	box-shadow: 10px 5px 5px #787878;
+}
+
+.project-card h2 {
+	margin: 0rem;
+	margin-top: 0.5rem;
+	padding: 0rem;
+	height: 5em;
 }
 
 .project-card p {
 	align-self: flex-start;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	height: 4rem;
 }
 
 .project-card .button {
