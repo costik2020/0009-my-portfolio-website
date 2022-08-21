@@ -783,6 +783,41 @@ hr {
 }
 
 
+
+/* //////////////////////////////////////////////////////////// */
+/*Styles for no-live-demo.html page*/
+
+.no-live-demo-body {
+	/*border: solid black 2px;*/
+	min-height: 100vh;
+	background-color: #f7f7f7;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.no-live-demo{
+	/*border: solid black 2px;*/
+}
+
+.no-live-demo h2{
+
+}
+
+.no-live-demo p{
+
+}
+
+.no-live-demo img{
+	/*border: solid black 2px;*/
+	width: 20rem;
+	float: left;
+}
+
+
+
+/* //////////////////////////////////////////////////////////// */
+
 /*
 body{
 	height: 1000em;
