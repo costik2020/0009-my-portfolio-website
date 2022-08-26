@@ -841,7 +841,7 @@ hr {
 
 /*Phone responsive */
 
-@media all and (max-width: 400px){
+@media screen and (max-width: 600px){
 
 
 
@@ -922,6 +922,7 @@ hr {
 
 	.skills #container-skills-list ul{
 		font-size: 0.7rem;
+		padding-right: 1rem;
 
 	}
 
@@ -1014,6 +1015,15 @@ hr {
 	/*Footer*/
 	.footer p{
 		font-size: 0.5rem;
+	}
+
+
+
+
+	/*Sorry, no live demo page 404*/
+	.no-live-demo h2,
+	.no-live-demo p{
+		padding: 1rem;
 	}
 
 
