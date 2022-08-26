@@ -28,8 +28,13 @@ Mellow down the white color
 }
 
 * {
+	/*debug start*/
+	border: solid black 2px;
+	/*background: #72C96C;*/
+	/*debug end*/
 	box-sizing: border-box;
 	border: none;
+
 
 }
 
@@ -42,7 +47,7 @@ body{
 }
 
 body, article, p, ul,footer {
-	/*border: solid black 2px;*/
+	border: solid black 2px;
 	font-family: sans-serif;
 	font-size: 1em;
 	/*background-color: #DCDCDD;*/
@@ -51,6 +56,7 @@ body, article, p, ul,footer {
 
 
 .nav-bar, .contact, .footer, .find-me{
+	border: solid black 2px;
 	background-color: #590366;
 	color: #C5C3C6;
 }
@@ -67,6 +73,8 @@ body {
 
 /*Navigation Bar*/
 .nav-bar{
+	border: solid black 2px;
+	/*border: none;*/
 	/*background-color: #3A0842;*/
 	/*background-color: #FFFFFF;*/
 	/*background: rgba(0,0,0,0);*/
@@ -75,21 +83,23 @@ body {
 
 	padding: 0.1em;
 	padding-right: 2em;
-	border: none;
+
 	width: 100%;
 	position: fixed;
 	top: 0em;
-	z-index: +1;
+	z-index: +2;
 
 }
 
 .nav-bar ul li{
+	border: solid black 2px;
 	display: inline;
 	border: none;
 
 }
 
 .nav-bar ul{
+	border: solid black 2px;
 	border: none;
 	/*background-color: #3A0842;*/
 	/*background-color: #FFFFFF;*/
@@ -813,6 +823,96 @@ hr {
 	width: 20rem;
 	float: left;
 }
+
+
+
+
+
+
+/*
+
+************************************
+*       RESPONSIVE WEB DESIGN      *
+************************************
+
+*/
+
+
+
+/*Phone responsive */
+
+@media all and (max-width: 400px){
+
+	/*Adjust the navigation bar*/
+	.nav-bar {
+		font-size: 0.4rem;
+		padding-right: 0.2rem;
+	}
+
+	/*Hero area*/
+	/*Fix the PORTOFOLIO here header*/
+	.hero-1 .hero-text .the-header {
+		font-size: 3rem;
+		letter-spacing: 0.4rem;
+	}
+
+	.hero-1 .hero-text h2 {
+		font-size: 0.7rem;
+	}
+
+	.hero-1 .hero-text p {
+		font-size: 0.7rem;
+		padding: 0.5rem;
+		text-shadow: 2px 2px 2px black;
+	}
+
+	.hero-1 .hero-text .button {
+		font-size: 0.5rem;
+	}
+
+	.hero-2{
+		background-position: 20% 70%;
+	}
+
+	/*Update the style of buttons*/
+	.button {
+	  line-height: 1;
+	  font-weight: 200;
+	  font-size: 2rem;
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
