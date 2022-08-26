@@ -307,10 +307,10 @@
 			<h2>Contact Me</h2>
 			<div class="form-container">
 
-				<form class="" action="#" method="post" >
+				<form name="my-portfolio-form" class="" method="post" data-netlify="true" data-netlify-recaptcha="true" >
 					<div class="name-email">
 						<input type="text" name="name" id="name" placeholder="Name" />
-						<input type="text" name="email" id="email" placeholder="Email" />
+						<input type="email" name="email" id="email" placeholder="Email" />
 					</div>
 
 					<input type="text" name="subject" id="subject" placeholder="Subject" />
@@ -320,6 +320,7 @@
 						<input type="submit" value="Send Message" />
 						<input type="reset" value="Clear Form" class="alt" />
 					</div>
+					<div data-netlify-recaptcha="true"></div>
 
 
 
@@ -345,7 +346,7 @@
 			<h3>Find me</h3>
 			<p>Many Thanks! for taking the time to see my portofolio website.</p>
 
-			<!-- TODO ADD A TOOLTIP FOR EACH ICON WITH "title=" ATTRIBUTE.. -->
+
 			<div class="icons">
 				<a href="https://www.linkedin.com/in/constantin-luciu-a99259248/" target="_blank" title="LinkedIn" class="linkedin-icon"></a>
 				<a href="https://github.com/costik2020" target="_blank" title="My GitHub" class="github-icon"></a>
