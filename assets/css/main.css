@@ -466,6 +466,7 @@ margin: 1rem;
 
 .projects p {
 	font-size: 1.2em;
+	padding: 1rem;
 }
 
 .container-of-projects {
@@ -839,6 +840,12 @@ hr {
 
 
 
+
+
+
+
+
+
 /*Phone responsive */
 
 @media screen and (max-width: 600px){
@@ -1027,8 +1034,10 @@ hr {
 	}
 
 
-
-
+	.no-live-demo img{
+		float: none;
+		margin-left: 10%;
+	}
 
 
 }
@@ -1040,9 +1049,56 @@ hr {
 
 
 
+/*Tablet Responsive Design*/
+@media screen and (min-width: 600px) and (max-width: 900px) {
+	/*Hero Area update*/
+	.hero-1 .hero-text p {
+		padding: 1rem;
+	}
+
+	/*About Me area*/
+	.about .about-par img {
+		padding-left: 1rem;
+		float: none;
+		width: 85%
+
+	}
+
+	/*Skills Area*/
+	.skills p {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 
 
 
+	/*Find Me*/
+	.find-me p {
+		padding: 1rem;
+	}
+
+	/*Resize the icons*/
+	.find-me .icons {
+		font-size: 0.7rem;
+	}
+
+
+
+
+	/*Sorry, no live demo page 404*/
+	.no-live-demo h2,
+	.no-live-demo p{
+		padding: 1rem;
+
+	}
+
+	.no-live-demo img{
+		float: right;
+	}
+
+
+
+}
 
 
 
