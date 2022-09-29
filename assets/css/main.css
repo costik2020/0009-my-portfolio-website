@@ -416,6 +416,12 @@ margin: 1rem;
 
 
 /*Skills area*/
+.logos{
+	width: 100%;
+	/*border: 4px solid black;*/
+	object-fit: cover;
+}
+
 
 .skills {
 	min-height: 50em;
@@ -455,7 +461,8 @@ margin: 1rem;
 }
 
 .skills img{
-	max-width: 100%;
+	/*Targeting the 3 logso picture HTML CSS JAVASCRIPT*/
+	/*max-width: 100%;*/
 }
 
 .additional-skills {
