@@ -163,10 +163,22 @@ neno pairs: #ffb600 with #CE00A0
 
 */
 .neonText {
-  animation: flicker 1.5s infinite alternate;
+  /*Remove the flicker effect*/
+  /*animation: flicker 1.5s infinite alternate;*/
   /*color: #FFFFFF;*/
   /*color: #ffb600;*/
   color: #FFF700;
+
+  text-shadow:
+  0 0 4px #FFF700,
+  0 0 11px #FFF700,
+  0 0 19px #FFF700,
+  0 0 40px #FF6F00,
+  0 0 80px #FF6F00,
+  0 0 90px #FF6F00,
+  0 0 100px #FF6F00,
+  0 0 150px #FF6F00;
+
 }
 
 h1 {
