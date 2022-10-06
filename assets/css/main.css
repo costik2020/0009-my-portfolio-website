@@ -479,15 +479,40 @@ margin: 1rem;
 .skills img{
 	/*Targeting the 3 logso picture HTML CSS JAVASCRIPT*/
 	/*max-width: 100%;*/
+	/*border: solid red 2px;*/
 }
 
 .additional-skills {
 		margin-bottom: 4rem;
 }
 
+.skills .outer-container-skills-list{
+	/*border: solid red 2px;*/
+	margin-bottom: 10rem;
+	display: flex;
+	justify-content: center;
+}
+
+.skills #container-skills-list {
+	/*border: solid black 2px;*/
+	width: 100%;
+	margin: 0rem;
+	display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.skills #container-skills-list ul{
+		/*border: solid blue 2px;*/
+		flex: 0 0 25%;
+}
+
 .skills .button {
 	margin-bottom: 8rem;
 }
+
+
 
 
 /*My Projects*/
@@ -966,9 +991,19 @@ hr {
 		width: 100%;
 	}
 
+
 	.skills #container-skills-list ul{
 		font-size: 0.7rem;
 		padding-right: 1rem;
+
+	}
+
+	.skills #container-skills-list {
+		/*border: solid black 2px;*/
+		width: 100%;
+		margin: 0rem;
+		display: block;
+
 
 	}
 
