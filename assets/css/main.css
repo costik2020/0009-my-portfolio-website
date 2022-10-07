@@ -501,11 +501,19 @@ margin: 1rem;
     flex-wrap: wrap;
 
 
+
 }
 
 .skills #container-skills-list ul{
 		/*border: solid blue 2px;*/
 		flex: 0 0 25%;
+		font-family: monospace, sans-serif;
+		font-size: 1.5rem;
+		font-weight: 900;
+		/*text-shadow: 3px 3px 3px #590366;*/
+		text-shadow: 1px 1px 1px #590366, 2px 2px 1px #590366;
+		text-decoration: underline solid #590366 2px;
+
 }
 
 .skills .button {
