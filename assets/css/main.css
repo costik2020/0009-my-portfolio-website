@@ -189,6 +189,8 @@ h1 {
 /* Flickering animation */
 /*Color-purple: #CE00A0*/
 /*Color-green: #15FF00*/
+
+/*
 @keyframes flicker {
 
   0%, 18%, 22%, 25%, 53%, 57%, 100% {
@@ -210,11 +212,14 @@ h1 {
   }
 }
 
-
+*/
 
 
 
 /*Clouds animation*/
+
+
+
 .ignore .banner{
 	position: relative;
 	width: 100%;
@@ -240,10 +245,19 @@ h1 {
 	/*border: solid white 10px; */
 	position: absolute;
 	top: 0;
-	max-width: 100%;
-	animation: animate-clouds calc(8s * var(--i)) linear  infinite;
+	max-width: 50%;
+	/*animation: animate-clouds calc(8s * var(--i)) linear  infinite;*/
+	/*animation: animate-clouds 30s linear infinite;*/
+
+	/*Improve compatibility and optimisation for multiple browsers*/
+	-webkit-animation: animate-clouds calc(24s * var(--i)) linear  infinite;
+	-moz-animation: animate-clouds calc(24s * var(--i)) linear  infinite;
+	-o-animation: animate-clouds calc(24s * var(--i)) linear  infinite;
+	animation: animate-clouds calc(24s * var(--i)) linear  infinite;
+
 }
 
+/*
 @keyframes animate-clouds {
 	0% {
 		transform: translateX(-100%)
@@ -254,6 +268,18 @@ h1 {
 	}
 }
 
+
+*/
+
+@keyframes animate-clouds {
+	from {
+		transform: translateX(-200%)
+	}
+
+	to {
+		transform: translateX(200%)
+	}
+}
 
 
 
