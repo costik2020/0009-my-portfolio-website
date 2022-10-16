@@ -477,14 +477,22 @@ margin: 1rem;
 /*by using these below codes your iPhone and MAC image or picture stretch issue will be resolved*/
 .main-skills{
 	/*border: 4px solid black;*/
-    width:50%;
-	float:left;
-    height:auto;
-    padding:10px;
+    width: 50%;
+	float: left;
+    height: auto;
+    padding-right:1rem;
+	padding-left: 5rem;
 }
 
 .main-skills .logos{
-	width: 100%;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	filter: blur(10px);
+}
+
+.main-skills .logos:hover {
+	filter: blur(0);
 }
 
 
