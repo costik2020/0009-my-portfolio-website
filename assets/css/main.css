@@ -643,6 +643,28 @@ And if you fallow this then the pictures from card to card will look good and sy
 	box-shadow: 10px 5px 5px #4A4944;
 }
 
+/*
+Hierarchy and clasificatin of my Projects in 3 categories:
+
+GOLD     1st place
+SILVER   2nd place
+BRONZE   3rd place
+*/
+
+.gold {
+	background: #ffd700;
+}
+
+.silver{
+	background: #c0c0c0;
+}
+
+.bronze {
+	background: #cd7f32;
+}
+
+
+
 .project-card h2 {
 	margin: 0rem;
 	margin-top: 0.5rem;
