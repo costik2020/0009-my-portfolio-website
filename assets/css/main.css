@@ -145,9 +145,9 @@ a {
 }
 
 
-/*Add smooth scroll effect when a nav-bar button is pressed */
+/*Add smooth scroll effect when a nav-bar button is pressed / clicked */
 html{
-  scroll-behavior: smooth;;
+  scroll-behavior: smooth;
 }
 
 /*Home*/
