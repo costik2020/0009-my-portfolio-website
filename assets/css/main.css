@@ -636,6 +636,16 @@ And if you fallow this then the pictures from card to card will look good and sy
 
 */
 
+
+/*
+Test something with transform and scaling on hoover..
+
+.project-card:hover {
+	transform: scale(1.5);
+}
+
+*/
+
 .project-card {
 	/*border: solid black 2px;*/
 	margin: 1rem;
