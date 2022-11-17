@@ -12,6 +12,21 @@ Mellow down the white color
 #C5C3C6 - Silver white
 */
 
+
+/*Declare some palete varialbes*/
+:root {
+  --bg-hero-color-1: #0082DD;
+  --bg-body-top: #0082DD ;
+  --bg-body-bottom: #590366;
+  --bg-footer: #590366;
+  --text-color: #EDF67D; 
+
+
+}
+
+
+
+
 /*The "DINER" font from www.fontsquirrel.com*/
 /*Location: "../fonts/diner-obese_regular_macroman/" */
 @font-face {
@@ -44,12 +59,20 @@ html {
 
 body{
 	margin: 0px;
+    background: var(--bg-hero-color-1);
+    background: linear-gradient(to bottom, var(--bg-body-top), var(--bg-body-bottom));
 }
+
+.wraper-gradient {
+   
+}
+
 
 body, article, p, ul,footer {
 	/*border: solid black 2px;*/
 	font-family: sans-serif;
 	font-size: 1em;
+    color: var(--text-color)
 	/*background-color: #DCDCDD;*/
 }
 
@@ -58,6 +81,7 @@ body, article, p, ul,footer {
 .nav-bar, .contact, .footer, .find-me{
 	/*border: solid black 2px;*/
 	background-color: #590366;
+    background-color: var( --bg-footer);
 	color: #C5C3C6;
 }
 
@@ -181,6 +205,15 @@ neno pairs: #ffb600 with #CE00A0
 
 }
 
+
+
+
+
+
+
+
+
+
 h1 {
   font-size: 4.2rem;
 
@@ -286,7 +319,7 @@ h1 {
 
 
 .hero-2{
-	background-image: url("/assets/img/atlas-shrugged-3.png");
+	background-image: url("/assets/img/atlas-shrugged-1.png");
 	min-height: 60em;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -302,7 +335,8 @@ h1 {
 /*Hero cocolor: #0082DD or #006AB6*/
 .hero-1{
 	/*Backup baner background in case that the pic doesn't load..*/
-	background-color: #0082DD;
+	/*background-color: #0082DD;
+    background-color: var(--bg-hero-color-1);*/
 	/*background-color: white;*/
 	min-height: 60em;
 	width: 100%;
@@ -323,6 +357,16 @@ h1 {
 
 
 
+}
+
+
+#about .container-par-img > h2, 
+#skills > h2, 
+#projects > h2,
+#contact > h2{
+    font-family: "diner-obeseregular";
+    font-size: 3rem;
+    letter-spacing: 1rem;
 }
 
 
@@ -386,8 +430,7 @@ h1 {
 	min-height: 80rem;
 	padding-top: 6rem;
 	width: 100%;
-	background: black;
-	color: white;
+	/*background: linear-gradient(to bottom, black, white);  */
 	text-indent: 1em;
 	display: flex;
 	flex-direction: column;
@@ -426,10 +469,29 @@ h1 {
 float: right;
 width: 15rem;
 margin: 1rem;
-
+border-radius: 10px;
+box-shadow: 10px 10px 5px black;
 
 
 }
+
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
 
 .about p {
 	font-size: 1.2rem;
@@ -612,6 +674,7 @@ margin: 1rem;
   width: 300px;
   height: 250px;
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  border-radius: 10px;
 }
 
 /* [2] Transition property for smooth transformation of images */
@@ -664,6 +727,9 @@ Test something with transform and scaling on hoover..
 	background: #AFAFAF;
 	/*box-shadow: 10px 5px 5px #787878;*/
 	box-shadow: 10px 5px 5px #4A4944;
+    box-shadow: 10px 10px 30px  red;
+    border-radius: 10px;
+
 }
 
 /*
@@ -676,14 +742,17 @@ BRONZE   3rd place
 
 .gold {
 	background: #ffd700;
+    box-shadow: 10px 10px 30px  #ffd700; 
 }
 
 .silver{
 	background: #c0c0c0;
+    box-shadow: 10px 10px 30px #c0c0c0 ; 
 }
 
 .bronze {
 	background: #cd7f32;
+    box-shadow: 10px 10px 30px #cd7f32 ; 
 }
 
 
@@ -695,6 +764,7 @@ BRONZE   3rd place
 	padding: 0rem;
 	height: 5rem;
 	font-size: 1.1rem;
+    color: var(--bg-footer);
 }
 
 .project-card p {
@@ -702,6 +772,7 @@ BRONZE   3rd place
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
 	height: 4rem;
+    color: var(--bg-footer);
 }
 
 .project-card .button {
