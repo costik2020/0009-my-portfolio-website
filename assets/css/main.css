@@ -629,7 +629,7 @@ box-shadow: 10px 10px 5px black;
 
 .certificates {
     /*border: 10px solid red;*/
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
