@@ -615,10 +615,40 @@ box-shadow: 10px 10px 5px black;
 }
 
 .skills .button {
+}
+
+.skills .see-my-projects-btn {
+    margin-top: 10rem;
 	margin-bottom: 8rem;
 }
 
 
+
+
+/*Certificates area*/
+
+.certificates {
+    /*border: 10px solid red;*/
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*align-items: center;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.certificates .certificate {
+    /*border: 1px solid yellow;*/
+    margin: 10px;
+
+}
+
+
+.certificates .certificate img {
+    width: 600px;
+    box-shadow: 10px 10px 30px #0a0a23; 
+}
 
 
 /*My Projects */
@@ -949,6 +979,7 @@ form .submit-reset input[type="reset"]:active {
 
 .find-me .linkedin-icon,
 .find-me .github-icon,
+.find-me .freecodecamp-icon,
 .find-me .google-icon,
 .find-me .pdf-icon {
 	/*border: solid black 2px;*/
@@ -975,6 +1006,15 @@ form .submit-reset input[type="reset"]:active {
 
 }
 
+  
+.find-me .freecodecamp-icon {
+	background-image: url("../icons/freecodecamp-icon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+   
+
 .find-me .google-icon {
 	background-image: url("../icons/google-icon.png");
 	background-size: contain;
@@ -994,6 +1034,7 @@ form .submit-reset input[type="reset"]:active {
 
 .find-me .linkedin-icon:hover,
 .find-me .github-icon:hover,
+.find-me .freecodecamp-icon:hover,
 .find-me .google-icon:hover,
 .find-me .pdf-icon:hover  {
 	position: relative;
@@ -1004,6 +1045,7 @@ form .submit-reset input[type="reset"]:active {
 
 .find-me .linkedin-icon:active,
 .find-me .github-icon:active,
+.find-me .freecodecamp-icon:active,
 .find-me .google-icon:active,
 .find-me .pdf-icon:active  {
 	position: relative;
@@ -1189,6 +1231,32 @@ hr {
 		font-size: 1rem;
 		padding: 0.4rem;
 	}
+
+
+
+
+
+/*Certificates area*/
+
+.certificates {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*align-items: center;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.certificates .certificate {
+    margin: 2px;
+}
+
+
+.certificates .certificate img {
+    width: 300px;
+}
+
 
 
 
